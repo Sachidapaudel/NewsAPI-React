@@ -79,10 +79,10 @@ const News = (props) => {
   );
 };
 
-News.defaultProps = {
-  pageSize: 4,
-  category: 'general',
-};
+// News.defaultProps = {
+//   pageSize: 4,
+//   category: 'general',
+// };
 
 News.propTypes = {
   pageSize: PropTypes.number,
