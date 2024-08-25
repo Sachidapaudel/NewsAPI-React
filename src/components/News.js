@@ -28,8 +28,8 @@ const News = (props) => {
   useEffect(() => {
       document.title = `${props.category} - NewsSpice`;
     updateNews();
-    // Add `page` to the dependency array to update the news when the page changes
-  }, []);
+     // eslint-disable-next-line
+    }, []);
 
   const fetchMoreData = async () => {
     // Update page state before making the request
